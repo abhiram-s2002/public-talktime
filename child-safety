@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Child Safety Standards — TalkTime</title>
+  <style>
+    :root {
+      --bg: #faf7f8;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --accent: #4a1228;
+      --accent-light: #6b1d3a;
+      --border: #e8dde2;
+      --max: 720px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 2.5rem 1.25rem 2rem;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 0.35rem; font-size: 1.75rem; font-weight: 700; }
+    header p { margin: 0; opacity: 0.9; font-size: 0.95rem; }
+    main {
+      max-width: var(--max);
+      margin: -1.25rem auto 3rem;
+      padding: 0 1rem;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem 1.5rem;
+      box-shadow: 0 4px 24px rgba(74, 18, 40, 0.06);
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.15rem;
+      margin: 2rem 0 0.75rem;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--accent-light); }
+    footer {
+      max-width: var(--max);
+      margin: 0 auto 2.5rem;
+      padding: 0 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent-light); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TalkTime</h1>
+    <p>Child Safety Standards</p>
+  </header>
+
+  <main>
+    <article>
+      <p class="muted"><strong>Last updated:</strong> June 18, 2026</p>
+      <p>
+        TalkTime (“we”, “us”, or “our”) is committed to protecting children and preventing
+        child sexual abuse and exploitation (CSAE) on our platform. These Child Safety Standards
+        describe our policies, enforcement practices, and reporting procedures for the TalkTime
+        Android application (<code>com.matez.voice</code>).
+      </p>
+
+      <h2 id="prohibited-conduct">1. Zero tolerance for CSAE</h2>
+      <p>
+        TalkTime explicitly prohibits child sexual abuse and exploitation (CSAE) and child
+        sexual abuse material (CSAM). The following are strictly forbidden on TalkTime:
+      </p>
+      <ul>
+        <li>Any sexual content involving minors, or content that sexualizes children.</li>
+        <li>Grooming, solicitation, or exploitation of minors through voice calls, profiles, or any other feature.</li>
+        <li>Sharing, requesting, or distributing CSAM in any form.</li>
+        <li>Using TalkTime to facilitate contact with minors for abusive or exploitative purposes.</li>
+        <li>Impersonating a minor or misrepresenting age to interact with minors.</li>
+      </ul>
+      <p>
+        Violations result in immediate account suspension or permanent removal, preservation of
+        relevant evidence as permitted by law, and reporting to appropriate authorities.
+      </p>
+
+      <h2 id="age-requirement">2. Age requirement</h2>
+      <p>
+        TalkTime is for adults <strong>18 years and older</strong> only. We do not knowingly
+        permit children under 18 to use the service. Users must provide accurate date-of-birth
+        information where requested. Accounts believed to belong to minors are removed.
+      </p>
+
+      <h2 id="prevention">3. Prevention measures</h2>
+      <p>We work to reduce CSAE risk through:</p>
+      <ul>
+        <li><strong>Age gating:</strong> TalkTime is not intended for users under 18, as stated in our <a href="privacy.html">Privacy Policy</a>.</li>
+        <li><strong>Host verification:</strong> hosts undergo identity review before approval.</li>
+        <li><strong>Community enforcement:</strong> user reports, account restrictions, and admin review of serious violations.</li>
+        <li><strong>Real-time voice only:</strong> TalkTime does not support persistent user-generated media uploads that could host CSAM.</li>
+        <li><strong>Monitoring and response:</strong> safety reports are reviewed promptly; confirmed violations lead to enforcement action.</li>
+      </ul>
+
+      <h2 id="reporting">4. How to report child safety concerns</h2>
+      <p>If you see behavior that may involve CSAE or CSAM on TalkTime, report it immediately:</p>
+      <ul>
+        <li>
+          <strong>In the app:</strong> go to <em>Settings → Help &amp; Support → Report Safety Concern</em>
+          to contact our safety team.
+        </li>
+        <li>
+          <strong>By email:</strong>
+          <a href="mailto:support@talktime.app?subject=Child%20Safety%20Report">support@talktime.app</a>
+          (subject: “Child Safety Report”). Include the reported username, a description of the
+          concern, and the date/time if known.
+        </li>
+      </ul>
+      <p>
+        For emergencies involving imminent danger to a child, contact your local law enforcement
+        authority first.
+      </p>
+
+      <h2 id="csam-response">5. CSAM response</h2>
+      <p>When we obtain actual knowledge of CSAM or CSAE on TalkTime, we will:</p>
+      <ul>
+        <li>Remove the offending account and restrict access to the relevant content or session.</li>
+        <li>Preserve information as required for investigation and legal compliance.</li>
+        <li>Report confirmed CSAM to the <strong>National Center for Missing &amp; Exploited Children (NCMEC)</strong> via CyberTipline where applicable, and to relevant <strong>regional and national authorities</strong> as required by law (including authorities in India where our operations are based).</li>
+        <li>Cooperate with law enforcement and Google Play safety notifications.</li>
+      </ul>
+
+      <h2 id="legal-compliance">6. Legal compliance</h2>
+      <p>
+        TalkTime complies with applicable child safety laws and regulations. We maintain procedures
+        to report confirmed CSAM to NCMEC or the appropriate regional authority, and to respond to
+        valid legal requests from law enforcement.
+      </p>
+
+      <h2 id="contact">7. Child safety point of contact</h2>
+      <p>
+        Google Play and other parties may contact our designated child safety representative about
+        CSAE content found on TalkTime:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:geocartindia@gmail.com">geocartindia@gmail.com</a><br />
+        <strong>Safety reports (users):</strong>
+        <a href="mailto:support@talktime.app?subject=Child%20Safety%20Report">support@talktime.app</a>
+      </p>
+      <p>
+        Our designated contact is authorized to speak about TalkTime’s CSAM prevention practices,
+        enforcement procedures, and compliance steps, and to take action when required.
+      </p>
+
+      <h2 id="updates">8. Updates</h2>
+      <p>
+        We may update these standards from time to time. The “Last updated” date at the top
+        reflects the current version.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      <a href="child-safety.html">Child Safety Standards</a> ·
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="delete-account.html">Delete Account</a>
+    </p>
+    <p>© TalkTime. All rights reserved.</p>
+  </footer>
+</body>
+</html>
