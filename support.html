@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — TalkTime</title>
+  <style>
+    :root {
+      --bg: #faf7f8;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --accent: #4a1228;
+      --accent-light: #6b1d3a;
+      --border: #e8dde2;
+      --max: 720px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 2.5rem 1.25rem 2rem;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 0.35rem; font-size: 1.75rem; font-weight: 700; }
+    header p { margin: 0; opacity: 0.9; font-size: 0.95rem; }
+    main {
+      max-width: var(--max);
+      margin: -1.25rem auto 3rem;
+      padding: 0 1rem;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem 1.5rem;
+      box-shadow: 0 4px 24px rgba(74, 18, 40, 0.06);
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.15rem;
+      margin: 2rem 0 0.75rem;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--accent-light); }
+    .contact-box {
+      margin: 1.25rem 0;
+      padding: 1.25rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f7f1f3;
+      text-align: center;
+    }
+    .contact-box .label {
+      margin: 0 0 0.35rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .contact-box .email {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .contact-box .email:hover { text-decoration: underline; }
+    .cta {
+      display: inline-block;
+      margin-top: 0.9rem;
+      padding: 0.7rem 1.2rem;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .cta:hover { background: var(--accent-light); }
+    footer {
+      max-width: var(--max);
+      margin: 0 auto 2.5rem;
+      padding: 0 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent-light); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TalkTime</h1>
+    <p>Support &amp; Contact</p>
+  </header>
+
+  <main>
+    <article>
+      <p class="muted"><strong>Last updated:</strong> July 15, 2026</p>
+      <p>
+        Need help with TalkTime? We’re here for account issues, billing questions,
+        call problems, host onboarding, safety reports, and general feedback.
+      </p>
+
+      <h2>Email support</h2>
+      <div class="contact-box">
+        <p class="label">Contact us at</p>
+        <a class="email" href="mailto:talktime717@gmail.com">talktime717@gmail.com</a>
+        <p>
+          <a class="cta" href="mailto:talktime717@gmail.com?subject=TalkTime%20Support">
+            Send an email
+          </a>
+        </p>
+      </div>
+      <p class="muted">
+        We usually reply within 1–2 business days. Include your account email and a short
+        description of the issue so we can help faster.
+      </p>
+
+      <h2>What we can help with</h2>
+      <ul>
+        <li>Sign-in, account, and profile problems</li>
+        <li>Coin recharges and wallet balance</li>
+        <li>Voice call connectivity or audio issues</li>
+        <li>Host application and verification status</li>
+        <li>Safety, abuse, or community concerns</li>
+        <li>Data export or account deletion requests</li>
+      </ul>
+
+      <h2>Quick self-serve links</h2>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="delete-account.html">Delete your account</a></li>
+        <li><a href="child-safety.html">Child Safety Standards</a></li>
+      </ul>
+
+      <h2>In-app help</h2>
+      <p>
+        You can also open <strong>Settings → Help</strong> inside TalkTime to report a bug,
+        request a feature, or contact support from your device.
+      </p>
+
+      <h2>App details</h2>
+      <ul>
+        <li><strong>App name:</strong> TalkTime</li>
+        <li><strong>Bundle ID / package:</strong> <code>com.matez.voice</code></li>
+        <li><strong>Platforms:</strong> Android (Google Play) and iOS (App Store)</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      <a href="support.html">Support</a> ·
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="delete-account.html">Delete Account</a> ·
+      <a href="child-safety.html">Child Safety</a>
+    </p>
+    <p>© TalkTime. All rights reserved.</p>
+  </footer>
+</body>
+</html>
