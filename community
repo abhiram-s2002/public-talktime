@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Community Guidelines — TalkTime</title>
+  <style>
+    :root {
+      --bg: #faf7f8;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --accent: #4a1228;
+      --accent-light: #6b1d3a;
+      --border: #e8dde2;
+      --max: 720px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 2.5rem 1.25rem 2rem;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 0.35rem; font-size: 1.75rem; font-weight: 700; }
+    header p { margin: 0; opacity: 0.9; font-size: 0.95rem; }
+    main {
+      max-width: var(--max);
+      margin: -1.25rem auto 3rem;
+      padding: 0 1rem;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem 1.5rem;
+      box-shadow: 0 4px 24px rgba(74, 18, 40, 0.06);
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.15rem;
+      margin: 2rem 0 0.75rem;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--accent-light); }
+    .callout {
+      margin: 1.25rem 0;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f7f1f3;
+      font-size: 0.95rem;
+    }
+    footer {
+      max-width: var(--max);
+      margin: 0 auto 2.5rem;
+      padding: 0 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent-light); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TalkTime</h1>
+    <p>Community Guidelines</p>
+  </header>
+
+  <main>
+    <article>
+      <p class="muted"><strong>Last updated:</strong> July 15, 2026</p>
+      <p>
+        TalkTime is a <strong>voice-only</strong> social calling app for adults
+        (<strong>18+</strong>). These Community Guidelines apply to all users—callers and hosts—
+        on Android and iOS. By using TalkTime, you agree to follow these rules.
+      </p>
+
+      <div class="callout">
+        <strong>Zero tolerance:</strong> Nudity, sexual content, sexual conversation,
+        pornography, and any content involving minors are strictly prohibited.
+        Violations can result in immediate permanent ban without refund of unused coins.
+      </div>
+
+      <h2>1. Age requirement</h2>
+      <ul>
+        <li>You must be <strong>18 years of age or older</strong> to create an account or use TalkTime.</li>
+        <li>Misrepresenting your age, or helping a minor use the app, is forbidden.</li>
+        <li>Accounts we reasonably believe belong to minors will be removed.</li>
+      </ul>
+
+      <h2>2. No sexual content, nudity, or adult solicitation</h2>
+      <p>TalkTime is <strong>not</strong> a dating, adult, or cam platform. You may not:</p>
+      <ul>
+        <li>Engage in sexual talk, erotic roleplay, sexting, or adult sexual conversation on voice calls.</li>
+        <li>Request, offer, or discuss sexual services, “pay for intimacy,” or pornographic content.</li>
+        <li>Upload, share, or request nude, partially nude, sexually suggestive, or pornographic images (including profile photos, KYC/selfie misuse, or any other upload).</li>
+        <li>Use usernames, bios, display names, or profile text that are sexual, explicit, or pornographic.</li>
+        <li>Harass others with unwanted sexual advances or pressure them into sexual topics.</li>
+      </ul>
+      <p>
+        Friendly, respectful, non-sexual conversation (languages practice, hobbies, everyday chat)
+        is welcome. Sexual or NSFW conversation is not.
+      </p>
+
+      <h2>3. No child sexual abuse or exploitation</h2>
+      <p>
+        Any sexual content involving minors, CSAM, grooming, or exploitation is banned and may be
+        reported to authorities. See our
+        <a href="child-safety.html">Child Safety Standards</a>.
+      </p>
+
+      <h2>4. Respect and safety</h2>
+      <ul>
+        <li>No abuse, threats, hate speech, bullying, stalking, or harassment.</li>
+        <li>No discrimination based on gender, caste, religion, race, nationality, disability, or similar protected characteristics.</li>
+        <li>No doxxing or sharing someone else’s private information without consent.</li>
+        <li>No impersonation of another person, brand, or official TalkTime staff.</li>
+        <li>No scams, phishing, or attempts to steal accounts, money, or personal data.</li>
+      </ul>
+
+      <h2>5. Voice-only product rules</h2>
+      <ul>
+        <li>TalkTime calls are <strong>voice-only</strong>. Do not attempt to use the app for video intimacy, nude streaming, or sexual performance.</li>
+        <li>Do not record calls without the other person’s clear consent where required by law.</li>
+        <li>Hosts must keep profiles and verification materials accurate and appropriate.</li>
+      </ul>
+
+      <h2>6. Spam, ads, and commercial misuse</h2>
+      <ul>
+        <li>No spam calls, mass promotion, or unsolicited advertising.</li>
+        <li>No selling or promoting illegal goods/services, drugs, weapons, or adult services.</li>
+        <li>No multi-level marketing / crypto scams / investment schemes pitched on calls.</li>
+        <li>Do not ask users to move payments off the App Store / Google Play to evade platform rules.</li>
+      </ul>
+
+      <h2>7. Honest accounts and fair use of coins</h2>
+      <ul>
+        <li>One person = one account (unless we expressly allow otherwise).</li>
+        <li>Do not abuse promo systems, chargebacks, purchase exploits, or wallet fraud.</li>
+        <li>Do not pressure hosts or callers for off-app cash payments tied to TalkTime services.</li>
+      </ul>
+
+      <h2>8. Reporting and enforcement</h2>
+      <p>If someone breaks these rules:</p>
+      <ul>
+        <li>Use in-app <strong>Report</strong> after a call or on a profile where available.</li>
+        <li>Or email
+          <a href="mailto:talktime717@gmail.com?subject=Community%20Report">talktime717@gmail.com</a>
+          with the username, what happened, and approximate date/time.
+        </li>
+        <li>For child-safety emergencies, contact local law enforcement first, then report to us
+          (see <a href="child-safety.html">Child Safety Standards</a>).
+        </li>
+      </ul>
+      <p>We may take action including warnings, temporary suspension, permanent ban, coin forfeiture,
+        removal of host status, and reporting to Apple, Google, or law enforcement when appropriate.</p>
+
+      <h2>9. Advertising and tracking</h2>
+      <p>
+        TalkTime does <strong>not</strong> currently show third-party ads in the app.
+        We do not sell your personal information to advertisers. See our
+        <a href="privacy.html">Privacy Policy</a> for how data is used.
+      </p>
+
+      <h2>10. Updates</h2>
+      <p>
+        We may update these guidelines. Continued use of TalkTime after updates means you accept
+        the current version. Related documents:
+        <a href="terms.html">Terms of Service</a>,
+        <a href="privacy.html">Privacy Policy</a>,
+        <a href="child-safety.html">Child Safety Standards</a>.
+      </p>
+
+      <h2>11. Contact</h2>
+      <p>
+        Questions or reports:
+        <a href="mailto:talktime717@gmail.com">talktime717@gmail.com</a> ·
+        <a href="support.html">Support page</a>
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      <a href="support.html">Support</a> ·
+      <a href="community.html">Community Guidelines</a> ·
+      <a href="terms.html">Terms</a> ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="child-safety.html">Child Safety</a> ·
+      <a href="delete-account.html">Delete Account</a>
+    </p>
+    <p>© TalkTime. All rights reserved.</p>
+  </footer>
+</body>
+</html>
